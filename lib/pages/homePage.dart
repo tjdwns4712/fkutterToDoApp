@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:todo/widgets/TodoItem.dart';
+import 'package:todo/widgets/todoItem.dart';
 import '../model/todo.dart';
 
 class homePage extends StatefulWidget {
@@ -220,6 +220,8 @@ class _homePageState extends State<homePage> {
               item.todoText!.toLowerCase().contains(enterKeyword.toLowerCase()))
           .toList();
       // where메소드를 이용하여 item객체의 todoText 속성 값이 endterKeyword를 포함하는것만 걸러냄
+      //검색 기능상 대소문자를 구분하지 않기 위해 .toLowerCase를 사용
+      //.contains는 검색어인 enterKeyword를 포함하는지
     }
     setState(() {
       _foundToDo = results;

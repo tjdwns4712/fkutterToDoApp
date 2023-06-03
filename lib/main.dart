@@ -14,10 +14,6 @@ class ToDo extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'To ',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-        visualDensity: VisualDensity.adaptivePlatformDensity,
-      ),
       initialRoute: '/',
       routes: {
         '/': (context) => const startSplashpage(), // 시작 실행화면

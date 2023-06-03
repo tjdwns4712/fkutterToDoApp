@@ -13,29 +13,29 @@ class ToDo {
     return [
       ToDo(
         id: '01',
-        todoText: "qweqwe1",
+        todoText: "example 1",
         isDone: true,
       ),
       ToDo(
         id: '02',
-        todoText: "qweqwe2",
+        todoText: "example 2",
         isDone: true,
       ),
       ToDo(
         id: '03',
-        todoText: "qweqwe3",
+        todoText: "example 3",
       ),
       ToDo(
         id: '04',
-        todoText: "qweqwe4",
+        todoText: "example 4",
       ),
       ToDo(
         id: '05',
-        todoText: "qweqwe5",
+        todoText: "example 5",
       ),
       ToDo(
         id: '06',
-        todoText: "qweqwe6",
+        todoText: "example 6",
       ),
     ];
   }
