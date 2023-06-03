@@ -10,8 +10,23 @@ class mypagePage extends StatefulWidget {
 class _mypagePageState extends State<mypagePage> {
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return Scaffold(
       backgroundColor: Colors.white,
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: const [
+            Text(
+              'Test Page',
+              style: TextStyle(
+                color: Colors.black,
+                fontWeight: FontWeight.w600,
+                fontSize: 50,
+              ),
+            )
+          ],
+        ),
+      ),
     );
   }
 }
